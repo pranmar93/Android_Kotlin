@@ -15,9 +15,12 @@ This Project describe about how to manage MVVM architecture inside an Android Pr
 
 ## Model Concept
     The Models created are like building blocks which will hold the value for each entity.
+    
+## View Concept
+    This is the class which represents the UI visible to the user. It is simply, presentation of model data.
 
 ## ViewModel Concept
-    This GameViewModel is a class that is responsible for preparing and managing the data for GameActivity class. It also handles the communication of the Activity with the Models.
+    This ViewModel is a class that is responsible for preparing and managing the data for Activity class. It also handles the communication of the Activity(views) with the Models.
 
 ## Steps to follow for this Project
 1) Create a new Project with an empty activity.
