@@ -28,3 +28,6 @@ This project describes about how to create an Android Library (.aar) file to mod
   5) After writing the functions, **re-build** your code.
   
   6) On re-building, you can find your .aar file generated at *<your_module>/build/outputs/aar/<generated_aar_library>*.
+  
+  
+Information on how to import and use the android library inside your project, check another project on [Using Android Library](https://github.com/pranmar93/Android_Kotlin/tree/master/UseKotlinLibrary)
