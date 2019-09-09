@@ -81,3 +81,6 @@ This project describes about MVVM architecture along with Data binding.(using Li
         > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Toast.makeText(this, it, Toast.LENGTH_SHORT).show() \
         > })
       - With this, we observe *editTextContent* object and call the Toast method whenever it changes.
+      
+      
+For other Data binding projects, see [Tic-Tac-Toe Project](https://github.com/pranmar93/Android_Kotlin/tree/master/TicTacToe) and [RecyclerView Databinding](https://github.com/pranmar93/Android_Kotlin/tree/master/RecyclerView%20Databinding)
