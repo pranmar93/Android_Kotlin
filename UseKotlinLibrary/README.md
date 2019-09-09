@@ -10,6 +10,8 @@ This project describes about how to import already generated android (.aar) libr
   
 ## Steps to follow for this Project
   - Create a new Android Project.
+  - Add permission for External storage in Manifest file.
+    > uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" 
   - For adding a library into your project, there are two ways:
   
     ### FIRST WAY
