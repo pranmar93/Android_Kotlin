@@ -1,4 +1,4 @@
-# USE KOTLIN LIBRARY
+# USING ANDROID LIBRARY (KOTLIN)
 
 This project describes about how to import already generated android (.aar) library and use it within your android project.
 
