@@ -17,11 +17,11 @@ This project describes about how to create an Android Library (.aar) file to mod
   
   2) Add a new **Module** to this Project -> Select "**Android Library**". --> This Module will be your library.
   
-    > For this project, the module is **ddflibrary**.
+   > For this project, the module is **ddflibrary**.
   
   3) Now, add a **Class** which will hold the member functions for this library.
   
-    > For this project, the class is **FileOperation**.
+   > For this project, the class is **FileOperation**.
   
   4) Add the functions to the class. The functions can be directly within the *companion object* (as static) or as member functions.
   
