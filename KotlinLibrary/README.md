@@ -1,4 +1,4 @@
-# KOTLIN LIBRARY
+# KOTLIN ANDROID LIBRARY
 
 This project describes about how to create an Android Library (.aar) file to modularize the code, so as to re-use the module in other android projects.
 
