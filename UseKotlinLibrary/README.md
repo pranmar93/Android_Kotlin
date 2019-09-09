@@ -46,4 +46,4 @@ This project describes about how to import already generated android (.aar) libr
   > For this project, you will generate a folder structure in your phone storage as Storage/TestApp/Input/{ABC}.txt \
   > And output will be under Storage/TestApp/Output/{DEF}.txt
   
-For example on how to create a Android Library, visit my other project on [Creating a Android (.aar) Library](https://github.com/pranmar93/Android_Kotlin/tree/master/KotlinLibrary)
+For example on how to create a Android Library, visit another project on [Creating a Android (.aar) Library](https://github.com/pranmar93/Android_Kotlin/tree/master/KotlinLibrary)
