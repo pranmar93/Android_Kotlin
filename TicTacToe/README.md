@@ -94,4 +94,9 @@ This is the main launcher activity for your app.
       
    5) Finally, displaying the winner.
       - So as the winner changes, the ***onGameWinnerChanged(winner)*** function is called, which displays the winner on a custom dialog box, same as how it was created for prompting user for username.
+      
+      
+      
+      
+For other Data binding projects, see [MVVM Databinding](https://github.com/pranmar93/Android_Kotlin/tree/master/MVVM%20Databinding) and [RecyclerView Databinding](https://github.com/pranmar93/Android_Kotlin/tree/master/RecyclerView%20Databinding)
     
