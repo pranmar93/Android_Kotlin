@@ -74,3 +74,5 @@ This Project describes on how to use RecyclerView and how to bind each item in R
 This is the most Simple type of RecyclerView. Many more modifications can be made to achieve different configurations with RecyclerView.
 
 For other Data binding projects, see [Tic-Tac-Toe Project](https://github.com/pranmar93/Android_Kotlin/tree/master/TicTacToe) and [MVVM Databinding](https://github.com/pranmar93/Android_Kotlin/tree/master/MVVM%20Databinding)
+
+For other Recycler View projects, see [Recycler View without Data binding]()
