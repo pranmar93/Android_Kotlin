@@ -13,6 +13,7 @@ class MainViewModel : ViewModel() {
 
     fun onChangeRandomFruitClick() = FakeRepository.changeCurrentRandomFruitName()
 
+    // two-way binded variable with annotation @Bindable
     @Bindable
     val editTextContent = MutableLiveData<String>()
 

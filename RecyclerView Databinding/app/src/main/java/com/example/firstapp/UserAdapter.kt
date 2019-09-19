@@ -14,6 +14,7 @@ class UserAdapter(private val userList: ArrayList<User>) : RecyclerView.Adapter<
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        // the variable declared in the xml is binded with the data here
         holder.userListBinding.user = userList[position]
     }
 
@@ -22,7 +23,6 @@ class UserAdapter(private val userList: ArrayList<User>) : RecyclerView.Adapter<
     }
 
     class ViewHolder(itemView: UserListBinding) : RecyclerView.ViewHolder(itemView.root) {
-
         var userListBinding: UserListBinding = itemView
     }
 }

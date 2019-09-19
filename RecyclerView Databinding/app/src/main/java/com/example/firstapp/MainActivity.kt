@@ -10,14 +10,17 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setContentView(R.layout.activity_main)
 
+        // Setting the view of the .xml file with which data binding is to be done
         val mainBinding: ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
+        // setting the layout manager for the Recycler view
         mainBinding.recyclerView.layoutManager = LinearLayoutManager(this)
 
+        // for the size of the recycler view to be fixed
         mainBinding.recyclerView.setHasFixedSize(true)
 
+        // creating a demo list
         val users = ArrayList<User>()
         users.add(User("Belal Khan", "Ranchi Jharkhand"))
         users.add(User("Ramiz Khan", "Ranchi Jharkhand"))
@@ -36,8 +39,10 @@ class MainActivity : AppCompatActivity() {
         users.add(User("Faiz Khan3", "Ranchi Jharkhand3"))
         users.add(User("Yashar Khan3", "Ranchi Jharkhand3"))
 
+        // initializing the adapter
         val adapter = UserAdapter(users)
 
+        //setting the adapter
         mainBinding.recyclerView.adapter = adapter
     }
 

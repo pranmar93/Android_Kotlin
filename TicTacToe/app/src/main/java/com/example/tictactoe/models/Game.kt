@@ -14,6 +14,7 @@ class Game(playerOne: String, playerTwo: String) {
 
     var winner = MutableLiveData<Player>()
 
+    // to check if the grid is full
     private val isBoardFull: Boolean
         get() {
             for (row in cells!!)
@@ -23,6 +24,7 @@ class Game(playerOne: String, playerTwo: String) {
             return true
         }
 
+    // constructor
     init {
         cells =  Array(BOARD_SIZE) { arrayOfNulls<Cell?>(BOARD_SIZE) }
         player1 = Player(playerOne, "x")
@@ -30,6 +32,7 @@ class Game(playerOne: String, playerTwo: String) {
         currentPlayer = player1
     }
 
+    // to check if the game ended
     fun hasGameEnded(): Boolean {
         if (hasThreeSameHorizontalCells() || hasThreeSameVerticalCells() || hasThreeSameDiagonalCells()) {
             winner.value = currentPlayer
@@ -100,10 +103,12 @@ class Game(playerOne: String, playerTwo: String) {
         return true
     }
 
+    // to switch player on every turn
     fun switchPlayer() {
         currentPlayer = if (currentPlayer === player1) player2 else player1
     }
 
+    // reset players after the game ends
     fun reset() {
         player1 = null
         player2 = null

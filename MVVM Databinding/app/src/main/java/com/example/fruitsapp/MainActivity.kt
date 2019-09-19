@@ -14,16 +14,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // getting ViewModel instance
         val mainViewModel = ViewModelProviders.of(this)
             .get(MainViewModel::class.java)
 
+        // Setting the view of the .xml file with which data binding is to be done
         DataBindingUtil.setContentView<ActivityMainBinding>(
             this, R.layout.activity_main
         ).apply {
             this.lifecycleOwner = this@MainActivity
-            this.viewmodel = mainViewModel
+            // same variable name "viewModel" as in the .xml file
+            this.viewModel = mainViewModel
         }
 
+        // Attaching an observer to the edit text field, so that whenever is changes, a Toast is shown.
         mainViewModel.editTextContent.observe(this, Observer {
             Toast.makeText(this, it, Toast.LENGTH_SHORT).show()
         })
