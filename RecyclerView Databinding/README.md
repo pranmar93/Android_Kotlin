@@ -75,4 +75,4 @@ This is the most Simple type of RecyclerView. Many more modifications can be mad
 
 For other Data binding projects, see [Tic-Tac-Toe Project](https://github.com/pranmar93/Android_Kotlin/tree/master/TicTacToe) and [MVVM Databinding](https://github.com/pranmar93/Android_Kotlin/tree/master/MVVM%20Databinding)
 
-For other Recycler View projects, see [Recycler View without Data binding]()
+For other Recycler View projects, see [Recycler View without Data binding](https://github.com/pranmar93/Android_Kotlin/tree/master/RV_without_Binding)
